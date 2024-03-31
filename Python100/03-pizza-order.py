@@ -1,5 +1,5 @@
 print("Thank you for choosing Python Pizza Deliveries!")
-size = input("What size of pizza? S, M, or L: ").upper() # What size pizza do you want? S, M, or L
+size = input("What size of pizza would you like? S, M, or L: ").upper() # What size pizza do you want? S, M, or L
 add_pepperoni = input("Add pepperoni? Y or N: ").upper() # Do you want pepperoni? Y or N
 extra_cheese = input("Add extra cheese? Y or N: ").upper() # Do you want extra cheese? Y or N
 # 🚨 Don't change the code above 👆
