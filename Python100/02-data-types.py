@@ -77,12 +77,13 @@
 # print(f"Score is {score}, Height is {height}, Winning? {iswinning}")
 
 ## TODO: exercise3 Your Life in Weeks
-age = input()
+name = input("What is your name? ").strip().title()
+age = input(f"Hello, {name} How old are you? ")
 # 🚨 Don't change the code above 👆
 # Write your code below this line 👇
-life_expectancy = 70
+life_expectancy = int(input(f"Life expectancy? "))
 life_weeks = life_expectancy * 52
 lived_weeks = int(age) * 52
 left_weeks = life_weeks - lived_weeks
-print(f"You lived {lived_weeks} weeks to this day, and assuming you live to be {life_expectancy} years old, You have {left_weeks} weeks left to live! Each week counts!")
+print(f"Hello {name}! You lived {lived_weeks} weeks to this day, and assuming you live to be {life_expectancy} years old, You have {left_weeks} weeks left to live! Each week counts!")
 
